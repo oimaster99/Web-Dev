@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+* {
+    font-size: 22px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .logo, .icon {
     width: 80px;    
 }
 
+.icon {
+    padding-top: 10px;
+}
+
 #hero-img {
     width: 100%
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #483D3F;
 }
 
 nav a{
     text-align: center;
     color: #483D3F;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -29,16 +52,28 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #0FA3B1;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #F4EBD9;
+    font-family: 'Lato';
 }
 
 nav a:hover {
@@ -50,6 +85,10 @@ nav a:hover {
     background-color: #F4EBD9;
     color: #0FA3B1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -63,6 +102,8 @@ nav a:hover {
 
 .msg {
     background-color: #0FA3B1;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -71,10 +112,18 @@ nav a:hover {
 
 .msg p {
     color:#F4EBD9;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #F4EBD9;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer h3 {
@@ -96,8 +145,12 @@ footer a:hover {
 
 .home-title {
     color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #F4EBD9;
 }
+
