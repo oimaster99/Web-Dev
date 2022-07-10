@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gillig | FAQ/Contact</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header id="web-head">
+        <a href="index.html" id="logo_link">
+            <img class="logo" src="images/gillig.png">
+        </a>
+        <nav class="top-links">
+            <a class="hli" href="index.html">Home</a>
+            <a class="hli" href="#">Get Started</a>
+            <a class="hli" href="#">FAQ/Contact</a>
+        </nav>
+    </header>
+    <div class="faq-main">
+        <h1 class="faq-title">Frequently Asked Questions</h1>
+        <!--Add image here, or make entire section green-->
+        <button class="faq-box">Where do I go to access the template catalogue?</button>
+        <section class="panel">
+            <p>
+                After clicking on the Get Started link, you must first start a project. 
+                Click on the submenu to the left, and click the community tab. 
+                Then click on the template tag.
+            </p> 
+        </section>
+        <button class="faq-box">Where do I go to learn about using the Website Builder?</button>
+        <section class="panel">
+            <p>
+                After starting a project, click on the submenu to the left, then click the question mark icon on the top left corner.
+            </p>
+        </section>
+        <button class="faq-box">How do I upload my own template?</button>
+        <section class="panel">
+            <p>
+                If you are finished with your template, click the right submenu, then click publish. On the publish page, select the community bubble. 
+                Add a name and description of your template and submit! Your submission will be manually approved by our moderation team.
+            </p>
+        </section>
+        <button class="faq-box">Can I make money off of my website?</button>
+        <section class="panel">
+            <p>
+                Yes! With a free license, we take 30% of all profits made through our service. 
+                We provide other licenses that allow you even more freedom with your website!
+            </p> 
+        </section>
+        <button class="faq-box">How can I get my website seen?</button>
+        <section class="panel">
+            <p>
+                We have many ways of giving your website more traction! 
+                Using our Search Optimizer, your website gets a massive boost in visibility on many popular search engines, including Google!
+                <a class="pan-link" href="#">Click here to see more on how it works.</a>
+            </p> 
+            
+        </section>
+    </div>
+    <div class="contact">
+        <section>
+            <img id=hlp-img src="images/about1.webp">
+            <p>
+                Have any other questions or concerns? Contact our teams! 
+                We offer 24/7 support for any problems you may have!
+            </p>
+            <p class="ctac-bton">Contact</p>
+        </section>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("faq-box")
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>

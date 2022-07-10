@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#web-head {
+    display: grid;
+    background-color: #054A29 ;
+    font-family: "Lato";
+    grid-template-columns: 0.3fr 1fr;
+    border: 0;
+}
+
+.marg {
+    margin: 0;
+}
+
+#front-box {
+    background-color: #3Fa34D;
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration-color: white;
+}
+
+.hli {
+    grid-row: 2;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hli:hover {
+    color: red;
+}
+
+.ind-box {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 0;
+}
+
+.button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.call {
+    border: 10px solid #054A29;
+    border-radius: 5px;
+    background-color: #054A29;
+    color: #2A9134;
+}
+
+.call:hover {
+    color: red;
+}
+
+.mid-con {
+    margin-top: 20px
+}
+
+/* faq.html */
+
+.faq-main {
+    font-family: 'Lato';
+}
+
+.faq-title {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    font-size: 60px;
+
+}
+
+.faq-box {
+    background-color: #054A29;
+    color: #EEE;
+    cursor: pointer;
+    padding: 18px;
+    margin-left: 15.2em;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 12px;
+}
+
+.active, .faq-box:hover {
+    background-color: lightcoral;
+}
+
+.panel {
+    background-color: white;
+    font-size: 23px;
+    font-weight: 500;
+    max-height: 0;
+    max-width: fit-content;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.pan-link {
+    text-decoration: none;
+}
+
+.pan-link:hover {
+    color: red;
+}
+
+.contact {
+    background-color: #3Fa34D;
+    font-family: 'Lato';
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 1fr 0.1fr;
+    grid-column: 1/3;
+    font-size: 30px;
+    color:#EEE
+}
+
+#hlp-img {
+    width: 550px;
+    margin-left: 215px;
+}
+
+.contact, section {
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.ctac-bton {
+    background-color: #054A29;
+    max-width: 15%;
+    text-align: center;
+    align-self: center;
+    margin-left: 400px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ctac-bton:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.ctac-bton:active {
+    color: lightcoral;
+}
