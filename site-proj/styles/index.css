@@ -216,6 +216,8 @@ body {
     border-radius: 16px;
     transition-duration: 0.4s;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .act-call:hover {
@@ -257,7 +259,7 @@ body {
 
 .w-call {
     text-align: center;
-    margin-top: -300px;
+    margin-top: -250px;
     font-size: 40px;
 }
 
